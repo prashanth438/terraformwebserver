@@ -17,7 +17,14 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "alphanew"
+  default = ""
   type    = string
 
 }
+
+variable "private_key_path" {
+  default = ""
+  type    = string
+
+}
+
