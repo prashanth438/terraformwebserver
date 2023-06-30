@@ -17,13 +17,13 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = ""
+  default = "Devops"
   type    = string
 
 }
 
 variable "private_key_path" {
-  default = ""
+  default = "D:/DevOPs/alphanew.pem"
   type    = string
 
 }
