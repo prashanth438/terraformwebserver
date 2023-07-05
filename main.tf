@@ -8,7 +8,7 @@ resource "aws_instance" "web_server" {
   connection {
     type        = "ssh"
     user        = "ubuntu"
-    private_key = var.private_key
+    private_key = var.private_key_path
     host        = self.public_ip
   }
   provisioner "remote-exec" {
